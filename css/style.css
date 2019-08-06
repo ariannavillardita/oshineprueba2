@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.header-area.sticky {
+	background-color: 'transparent' !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .nav-link{
+	color: #000;
+}
+
+.header-area.sticky .d-none{
+	display: block !important;
+}
+
+.header-area.sticky .d-block{
+	display: none !important;
+}
+
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+header {
+	background-color: #F8F9FA;
+}
+
+#home h1{
+	margin-top: 120px;
+	font-weight: 900;
+	
+	
+}
+#home{
+	background-color:#2C2B2B;
+	color: #fff;
+	
+}
+#home h1{
+	font-weight: 700;
+}
+
+#trendy{
+	margin-top: 120px;
+
+}
+#trendy h3{
+	font-size: 40px;
+	font-weight: 700;
+}
+
+#services h2{
+	margin-top: 120px;
+	text-align: center;
+	font-weight: 700;
+}
+#services p{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#products{
+	background-color: #FDEBDC;
+	margin-top: 100px;
+}
+#products h1{
+	font-weight: 700;
+	text-align: center;
+	margin-top: 230px;
+}
+#products p{
+	text-align: left;
+	margin-left: 65px;
+}
+.btn-light{
+	margin-left: 65px;
+}
+
+#testimonials h1{
+	font-weight: 700;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 50px;
+}
+#testimonials p{
+	font-weight: 400;
+	font-size: 15px;
+	text-align: center;
+	margin-top: -5px;
+}#testimonials h6{
+	font-weight: 600;
+	font-size: 13px;
+	text-align: center;
+	margin-top: 10px;
+}
+#testimonials p1{
+	font-weight: 400;
+	font-size: 12px;
+	text-align: left;
+	color: #565656;
+	margin-left: 270px;
+}
+#testimonials p2{
+	font-weight: 400;
+	font-size: 12px;
+	text-align: left;
+	color: #565656;
+	margin-left: 270px;
+}
+#contact h2{
+	margin-top: 60px;
+	text-align: center;
+	font-weight: 700;
+}
+
+#footer{
+	background-color: #222;
+	font-size: 20px;
+	text-align: center;
+	padding: 80px;
+	color: #fff;
+}
